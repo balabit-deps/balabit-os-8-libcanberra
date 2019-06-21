@@ -1,0 +1,13 @@
+Description: Disable login sound by default
+Author: Jeremy Bicha <jbicha@ubuntu.com>
+Forwarded: not-needed
+
+Index: libcanberra/src/libcanberra-login-sound.desktop.in
+===================================================================
+--- libcanberra.orig/src/libcanberra-login-sound.desktop.in	2011-07-01 15:02:05.982772027 +0100
++++ libcanberra/src/libcanberra-login-sound.desktop.in	2011-07-01 15:02:11.074772080 +0100
+@@ -7,3 +7,4 @@
+ AutostartCondition=GSettings org.gnome.desktop.sound event-sounds
+ X-GNOME-Autostart-Phase=Application
+ X-GNOME-Provides=login-sound
++X-GNOME-Autostart-enabled=false

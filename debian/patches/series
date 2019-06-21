@@ -1,0 +1,5 @@
+undefined_reference.diff
+gtk_dont_assume_x11.patch
+02_disable_login_sound.patch
+03_onlyshowin_unity.patch
+04_nodisplay_autostart.patch
